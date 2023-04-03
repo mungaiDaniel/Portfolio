@@ -107,9 +107,9 @@ html{
   scroll-behavior: smooth;
 }
 
-section{
+/* section{
   margin-top: 8rem;
-}
+} */
 section > h2, section > h5{
   text-align: center;
   color: var(--primary-orange);
@@ -275,6 +275,9 @@ nav a:hover{
 .ctn{
   margin-bottom: 10px;
 }
+#about{
+  padding: 2rem;
+}
 .about_cards{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -356,6 +359,66 @@ nav a:hover{
 .container{
   margin: 0 auto;
 }
+
+#services{
+  position: relative;
+  background: url(asserts/binary.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  padding: 2rem;
+
+}
+.service_list{
+  color: #ffae00;
+  padding: 2rem ;
+}
+.service_list li{
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 0.8rem;
+}
+.service_list p{
+  font-size: 0.9rem ;
+}
+.service_head{
+  color:#f9ab00;
+}
+.service_list-icon{
+
+}
+.services_container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+}
+.service{
+  background: #251a03;
+  border-radius: 0 0 2rem 2rem;
+  border: 1px solid transparent;
+  height: fit-content;
+  transition: 0.3s ease-in-out;
+  margin-top: 20px;
+  
+}
+.service:hover{
+  background: #120d01;
+}
+.service_head{
+  background: #e2dc9b;
+  padding: 1.5rem;
+  border-radius: 0 0 2rem 2rem;
+  box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.1);
+}
+.service_head h3{
+  color:#251a03;
+  font-size: 1rem;
+  text-align: center;
+} 
+.service_list-icon{
+  margin-top: 2px;
+}
+
 @media (max-width:1024px){
   .about_container{
     grid-template-columns: 2fr;
@@ -387,7 +450,14 @@ nav a:hover{
   .experience_content{
     padding: 1rem;
   }
-
+  .services_container{
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+  .service{
+    height: auto;
+  }
+  
 }
 
 @media(max-width:768px){
@@ -437,6 +507,10 @@ display: none;
     width: 100%;
     padding: 0.3rem 0.1rem;
     
+  }
+  .services_container{
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
   }
   
 }
