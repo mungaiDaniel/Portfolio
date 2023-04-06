@@ -22,10 +22,10 @@ const Header = () => {
             <div className="d-flex ctn align-items-center justify-content-between">
 
             <a href={cv} download className="btn-main-offer2">Download Cv</a>
-            <a href="#" className="btn-main-offer">Contact Me</a>
+            <a href="#contacts" className="btn-main-offer">Contact Me</a>
             </div>
             <Socials />
-            <a href="#contact" className="scroll_down">Scroll Down</a>
+            <a href="#contacts" className="scroll_down">Scroll Down</a>
             <div className="me container">
 
               <img src={dan4} alt="dan"/>

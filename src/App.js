@@ -6,6 +6,11 @@ import Particles from "react-particles-js";
 import About from "./components/About";
 import Services from "./components/Services";
 import Experience from "./components/Experience";
+import Work from "./components/Work";
+import Contacts from "./components/Contacts.jsx";
+import Footer from "./components/Footer";
+import Process from "./components/Process";
+import Resume from "./components/Resume";
 
 function App(){
   return (
@@ -35,6 +40,11 @@ function App(){
     <About />
     <Experience/>
     <Services />
+    <Resume />
+    <Process />
+    <Work />
+    <Contacts />
+    <Footer/>
     </>
   )
 }
