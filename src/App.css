@@ -107,9 +107,9 @@ html{
   scroll-behavior: smooth;
 }
 
-section{
+/* section{
   margin-top: 8rem;
-}
+} */
 section > h2, section > h5{
   text-align: center;
   color: var(--primary-orange);
@@ -275,6 +275,9 @@ nav a:hover{
 .ctn{
   margin-bottom: 10px;
 }
+#about{
+  padding: 2rem;
+}
 .about_cards{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -356,6 +359,276 @@ nav a:hover{
 .container{
   margin: 0 auto;
 }
+
+#services{
+  position: relative;
+  background: url(asserts/Ink.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  padding: 2rem;
+
+}
+.service_list{
+  color: #f9aa00;
+  padding: 2rem ;
+  font-weight: 600;
+}
+.service_list li{
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 0.8rem;
+}
+.service_list p{
+  font-size: 0.9rem ;
+}
+.service_head{
+  color:#f9ab00;
+}
+.service_list-icon{
+  margin-bottom: 2px;
+}
+.services_container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+}
+.service{
+  background: #2f291c;
+  border-radius: 0 0 2rem 2rem;
+  border: 1px solid transparent;
+  height: fit-content;
+  transition: 0.3s ease-in-out;
+  margin-top: 20px;
+  
+}
+.service:hover{
+  background: #120d01;
+}
+.service_head{
+  background: #e2dc9b;
+  padding: 1.5rem;
+  border-radius: 0 0 2rem 2rem;
+  box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.1);
+}
+.service_head h3{
+  color:#251a03;
+  font-size: 1rem;
+  text-align: center;
+} 
+.service_list-icon{
+  margin-top: 2px;
+}
+.portfolio_container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
+}
+.portfolio_item{
+  background:#faca64;
+  padding: 1.3rem;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+  transition: 0.3s ease-in-out; 
+
+}
+.portfolio_item:hover{
+  border-color: #faca64;
+  background: transparent;
+}
+.portfolio_item > a{
+  border: 1px solid #f9ab00;
+}
+.portfolio_item-image{
+  border-radius: 1.5rem;
+  overflow: hidden;
+}
+.portfolio_item h3{
+  margin: 1.2rem  0 2rem; 
+  
+}
+.portfolio_item-cta{
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+.cat{
+  border: 1px solid #f9ab00;
+  transition: 0.3s ease-in-out;
+}
+#work{
+  padding: 2rem;
+}
+#contacts{
+  padding: 40px;
+}
+.container.contact_container{
+  width: 58%;
+  display: grid;
+  grid-template-columns:30% 58% ;
+  gap: 12%;
+}
+.contact_options{
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+.contact_option{
+  background: #f9ab00;
+  padding:1.2rem  ;
+  border-radius: 1.2rem;
+  text-align: center;
+  border: 1px solid transparent;
+  transition: 0.3s ease-in-out;
+}
+.contact_option:hover{
+  background-color: transparent;
+  border-color: #f9ab00;
+}
+.contact_icon{
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem ;
+}
+.contact_option a{
+  margin-top: 0.7rem;
+  display: inline-block;
+  font-size: 0.8rem;
+  color: #120d01;
+  text-decoration: none;
+
+}
+.contact_option a:hover{
+  color: #f9ab00;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+input, textarea{
+  width: 100%;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  background: transparent;
+  border: 2px solid #f9ab00;
+  resize: none;
+}
+footer{
+  background: #120d01;
+  color: #f9ab00;
+  padding: 3rem 0;
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 7rem;
+}
+footer a{
+  color: #f9ab00;
+  text-decoration: none;
+
+}
+footer a:hover{
+  color: #353330;
+}
+.footer_logo{
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+  display: inline-block;
+
+}
+.permalinks{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin: 0 auto 3rem;
+}
+.footer_socials{
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 4rem;
+}
+.footer_socials a{
+  background-color: #f9ab00;
+  color: #120d01;
+  padding: 0.8rem;
+  border-radius: 0.7rem;
+  display: flex;
+  border: 1px solid transparent;
+}
+.footer_socials a:hover{
+  background-color: #120d01;
+  color: #f9ab00;
+}
+.footer_copyright{
+  margin-bottom: 4rem;
+
+}
+.process_card{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+  text-align: center;
+}
+.process_card-icons{
+  padding: 3.5rem;
+  border-radius: 1.5rem;
+  border: 1px solid #dab46c;
+  margin: 1.5rem;
+}
+.process_details{
+  text-align: center;
+}
+.process_icon{
+  font-size: 2rem;
+  color: #daa645;
+}
+.resume_cards{
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+.maseno_logo{
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  justify-content: center;
+}
+.maseno{
+  width: 10%;
+}
+.resume_education{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+.resume{
+  text-align: center;
+  padding: 20px;
+}
+.resume_card h5, .resume_card > p {
+  color: #f9ab00;
+}
+.resume span{
+  color: #f9ab00;
+}
+.resume_education-cards > p{
+  font-weight: 900;
+  color: #593e03;
+}
+.resume_education-cards{
+  border-bottom: 1px solid #593e03;
+  
+}
+.resume_course{
+  margin-top: 20px;
+}
+.process_details{
+  background-color: #382701;
+  padding: 2rem;
+  color: #f9ab00;
+}
 @media (max-width:1024px){
   .about_container{
     grid-template-columns: 2fr;
@@ -387,7 +660,32 @@ nav a:hover{
   .experience_content{
     padding: 1rem;
   }
+  .services_container{
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+  .service{
+    height: auto;
+  }
+  .portfolio_container{
+    grid-template-columns: 1fr 1fr;
+    gap: 1.2rem;
+  }
+  .container.contact_container{
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  .process_card{
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+  }
+  .resume_cards{
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: 1fr;
+  }
 
+ 
 }
 
 @media(max-width:768px){
@@ -438,6 +736,27 @@ display: none;
     padding: 0.3rem 0.1rem;
     
   }
+  .services_container{
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+  }
+  .portfolio_container{
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  
+  }
+  .permalinks{
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+    margin-right: 3rem;
+
+  }
+  .process_card{
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+  }
+
   
 }
 @media(max-width:660px){
@@ -471,6 +790,9 @@ display: none;
     padding: 0.3rem 0.1rem;
     
   }
-  
+  .process_card{
+    display: flex;
+    flex-direction: column;
+  }
   
 }

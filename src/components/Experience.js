@@ -1,12 +1,21 @@
 import React from 'react'
 import {BsFillPatchCheckFill} from 'react-icons/bs'
+import { Roll, Slide } from 'react-reveal'
 
 const Experience = () => {
   return (
     <section id='experiences'>
+      <Slide left>
+
         <h5>What Skills I have</h5>
+      </Slide>
+      <Slide right>
+
         <h2> My Experience</h2>
-        <div className='experince_container container'>
+      </Slide>
+        <div className='experince_container container px-2'>
+          <Roll right>
+
             <div className='experience_frontend'>
               <h3>Frontend Development</h3>
               <div className='experience_content'>
@@ -54,6 +63,9 @@ const Experience = () => {
                 </article>
               </div>
             </div>
+          </Roll>
+          <Roll left>
+
             <div className='experience_backend container'>
             <h3>Backend Development</h3>
               <div className='experience_content'>
@@ -94,6 +106,7 @@ const Experience = () => {
                 </article>
               </div>
             </div>
+          </Roll>
         </div>
     </section>
   )
