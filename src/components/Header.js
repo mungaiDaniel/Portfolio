@@ -11,10 +11,10 @@ const Header = () => {
         <div className="main-info container">
             <h5 className="hello">hello, i'm</h5>
             <h1>Daniel Mungai</h1>
-            <h5>software developer</h5>
+            <h5>fullstack developer</h5>
             <Typed 
               className="typed-text"
-              strings={['Frontend Developer', 'Backend Developer', 'Wed design']}
+              strings={['Frontend Developer', 'Backend Developer', 'Web design']}
               typeSpeed={50}
               backSpeed={50}
               loop
@@ -26,12 +26,7 @@ const Header = () => {
             </div>
             <Socials />
             <a href="#contacts" className="scroll_down">Scroll Down</a>
-            <div className="me container">
-
-              <img src={dan4} alt="dan"/>
-
-            </div>
-            
+           
         </div>
     </div>
   )

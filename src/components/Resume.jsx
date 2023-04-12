@@ -146,35 +146,6 @@ const Resume = () => {
             
 
         </div>
-        <div className="resume_course">
-        <article >
-                        <h4>Relevant Coursework:</h4>
-                        <ul>
-                            <li>Data mining <span>(cct 416)</span></li>
-                            <li>Expert Systems <span>(cct 426) </span></li>
-                            <li>Computer systems Engineering <span>cct 412</span></li>
-                            <li>Neural Networks <span>(cct 411)</span></li>
-                            <li>Intelligent Agents <span>(cct 419)</span></li>
-                            <li>Simulation and modeling <span>(cct 417)</span></li>
-                            <li>Operating Systems <span>(cct 204)</span></li>
-                            <li>Signals and Systems <span>(cct 214)</span></li>
-                            <li>Electronics <span>(cct 213)</span></li>
-                            <li>Embedded Systems <span>(cct 315)</span></li>
-                            <li>Engineering Mathematics <span>(cct 208)</span></li>
-                            <li>Digital Electronics <span>(cct 202)</span></li>
-                            <li>Data Structures and Algorithms <span>(cct 204)</span></li>
-                            <li>Software Engineerung <span>(cct 308)</span></li>
-                            <li>Applied Probability and Statistics <span>(cct 216)</span></li>
-                            <li>Analog Communication Systems <span>(cct 315)</span></li>
-                            <li>Digital Communication Systems <span>(cct 316)</span></li>
-                            <li>Fibre Optics: Theory and Applications <span>(cct 433)</span></li>
-                            <li>Human Computer Interaction <span>(cct 304)</span></li>
-                            <li>Mobile Computing <span>(cct 306)</span></li>
-                            <li>Cisco Networking I-IV <span>(CCNA)</span></li>
-                        </ul>
-                    </article>
-
-        </div>
     </section>
     </Fade>
   )

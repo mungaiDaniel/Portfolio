@@ -1,22 +1,22 @@
 import React from 'react'
 import {BiCheck} from 'react-icons/bi'
-import { LightSpeed, Slide, Zoom } from 'react-reveal'
+import { LightSpeed, Slide, Fade } from 'react-reveal'
 
 const Services = () => {
   return (
         <section id='services'>
-            <LightSpeed right>
+            <LightSpeed duration={3500} right>
 
             <h2><span className='text-light'>I created </span>awsome stuff</h2>
             </LightSpeed>
-            <LightSpeed left>
+            <LightSpeed duration={3500} left>
 
             <h5>Passionate, energetic and dynamic <span className='text-light'>Computer Software Engineer,</span> with 1+ years of experieence in software development.Skilled in both frontend and backend system development, bundled with a strong foundation in math's, logic and cross-platform codding in react.js, flask, restful framework e.t.c</h5>
             </LightSpeed>
            
 
             <div className='container services_container'>
-                <Slide left>
+                <Fade duration={3500}>
 
                 <article className='service'>
                     <div className='service_head'>
@@ -43,8 +43,8 @@ const Services = () => {
                             </li>
                         </ul>
                 </article>
-                </Slide>
-                <Slide right>
+                </Fade>
+                <Fade duration={3500}>
 
 
                 <article className='service'>
@@ -72,8 +72,8 @@ const Services = () => {
                             </li>
                         </ul>
                 </article>
-                </Slide>
-                <Slide bottom>
+                </Fade>
+                <Fade duration={3500}>
 
                 <article className='service'>
                     <div className='service_head'>
@@ -100,7 +100,7 @@ const Services = () => {
                             </li>
                         </ul>
                 </article>
-                </Slide>
+                </Fade>
             </div>
             
         </section>
