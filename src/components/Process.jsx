@@ -10,7 +10,7 @@ const Process = () => {
     <Fade>
 
     <section>
-        <hr />
+       
         <h5>Process</h5>
         <h2>SYSTEM DESIGN PROCESS I FOLLOW</h2>
         <div className='process_details '>

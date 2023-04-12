@@ -10,11 +10,11 @@ import { Fade, LightSpeed, Zoom } from 'react-reveal'
 const About = () => {
   return (
     <section id='about' className='container'>
-       <LightSpeed left>
+       <LightSpeed left duration={3500}>
 
         <h5>Get To Konw</h5>
        </LightSpeed>
-       <LightSpeed right>
+       <LightSpeed duration={3500} right>
 
         <h2>About me</h2>
        </LightSpeed>
@@ -22,7 +22,7 @@ const About = () => {
         <div className='container about_container'>
             <div className='about_me'>
                 <div className='about_me-image'>
-                  <Rotate>
+                  <Rotate duration={3500}>
                   <img src={dan2} alt="dan2" />
                   </Rotate>
                    
@@ -30,14 +30,14 @@ const About = () => {
             </div>
             <div className='about-content'>
               <div className='about_cards'>
-                <Fade left>
+                <Fade left duration={3500}>
                 <article className='about_card'>
                    <FaAward className='about_icon' /> 
                   <h5>Experience</h5>
                   <small>1+ year working</small>
                 </article>
                 </Fade>
-                <Fade center>
+                <Fade center duration={3500}>
 
                 <article className='about_card'>
                    <FaUsers className='about_icon' /> 
@@ -45,7 +45,7 @@ const About = () => {
                   <small>1+</small>
                 </article>
                 </Fade>
-                <Fade right>
+                <Fade right duration={3500}>
 
                 <article className='about_card'>
                    <FaFolder className='about_icon' /> 
@@ -54,7 +54,7 @@ const About = () => {
                 </article> 
                 </Fade>
               </div>
-              <Fade bottom>
+              <Fade bottom duration={3500}> 
 
               <p className='container'>
                   A results-driven software engineer with one year of experience developing secure,
@@ -63,7 +63,7 @@ const About = () => {
                   development industry.
                 </p>
               </Fade>
-                <Zoom>
+                <Zoom duration={3500}>
 
                 <a href='#contacts' className='btn btn-warning' > Let's Talk </a>
                 </Zoom>
