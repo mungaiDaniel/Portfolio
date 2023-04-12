@@ -1,24 +1,27 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.9290bd63.css",
-    "main.js": "/Portfolio/static/js/main.04b971b6.js",
+    "main.css": "/Portfolio/static/css/main.1aa361d6.css",
+    "main.js": "/Portfolio/static/js/main.3b0d647a.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/Ink.jpg": "/Portfolio/static/media/Ink.47131e991d3fb6d8e342.jpg",
     "static/media/flat.jpg": "/Portfolio/static/media/flat.22b6b6114e1b92ed4ba5.jpg",
     "static/media/question.jpg": "/Portfolio/static/media/question.655b468fa2a4477990e0.jpg",
+    "static/media/dic2.jpg": "/Portfolio/static/media/dic2.814501cbcdc9af5d5f65.jpg",
     "static/media/workplace.jpg": "/Portfolio/static/media/workplace.8480c9588c275b3f1475.jpg",
+    "static/media/salon2.jpg": "/Portfolio/static/media/salon2.adb80c7d0ed22d98c90c.jpg",
     "static/media/top.jpg": "/Portfolio/static/media/top.e52ac54d2339a40e0a00.jpg",
+    "static/media/stack.jpg": "/Portfolio/static/media/stack.98bd39b10ce3cc880182.jpg",
     "static/media/cv.pdf": "/Portfolio/static/media/cv.f5824ec017bb7c9c63f9.pdf",
     "static/media/dan2.jpeg": "/Portfolio/static/media/dan2.051307f9403954b10eb0.jpeg",
     "static/media/sololearn.png": "/Portfolio/static/media/sololearn.be8fff98e7212309a0b2.png",
     "static/media/dan4.jpeg": "/Portfolio/static/media/dan4.366dd8390d3fee7a9e73.jpeg",
     "index.html": "/Portfolio/index.html",
-    "main.9290bd63.css.map": "/Portfolio/static/css/main.9290bd63.css.map",
-    "main.04b971b6.js.map": "/Portfolio/static/js/main.04b971b6.js.map",
+    "main.1aa361d6.css.map": "/Portfolio/static/css/main.1aa361d6.css.map",
+    "main.3b0d647a.js.map": "/Portfolio/static/js/main.3b0d647a.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9290bd63.css",
-    "static/js/main.04b971b6.js"
+    "static/css/main.1aa361d6.css",
+    "static/js/main.3b0d647a.js"
   ]
 }
