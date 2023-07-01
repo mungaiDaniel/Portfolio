@@ -1,6 +1,6 @@
 import React from "react"
 import Typed from "react-typed"
-import cv from "../asserts/cv.pdf"
+import cv1 from "../asserts/cv1.pdf"
 import dan4 from "../asserts/dan4.jpeg"
 import Socials from "./Socials"
 
@@ -21,7 +21,7 @@ const Header = () => {
             />
             <div className="d-flex ctn align-items-center justify-content-between">
 
-            <a href={cv} download className="btn-main-offer2">Download Cv</a>
+            <a href={cv1} download className="btn-main-offer2">Download Cv</a>
             <a href="#contacts" className="btn-main-offer">Contact Me</a>
             </div>
             <Socials />
