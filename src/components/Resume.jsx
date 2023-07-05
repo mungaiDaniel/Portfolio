@@ -114,7 +114,6 @@ const Resume = () => {
             <p>Bsc. Computer Technology</p>
             <p>Kisumu, Kenya</p>
             <p>Sep 2014 - Dec 2019</p>
-            <p> <span>&rArr;</span>Second Class Lower Division</p>
             </article>
             <article className='resume_education-cards'>
 
@@ -132,17 +131,7 @@ const Resume = () => {
             <p>Kenya Certificate of Secondary Education</p>
             <p>Nyahururu, Kenya</p>
             <p>Feb 2010 - Nov 2013</p>
-            <p> <span>&rArr;</span> Grade B(Plus)</p>
             </article>
-
-            <article className='resume_education-cards'>
-            <h5>Waka Junior Primary School</h5>
-            <p>Kenya Certificate of Primary Education</p>
-            <p>Nyahururu, Kenya</p>
-            <p>Feb 2002 - Nov 2009</p>
-            <p> <span>&rArr;</span> 353/500</p>
-            </article>
-
             
 
         </div>
