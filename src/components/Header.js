@@ -1,7 +1,6 @@
 import React from "react"
 import Typed from "react-typed"
 import cv1 from "../asserts/cv1.pdf"
-import dan4 from "../asserts/dan4.jpeg"
 import Socials from "./Socials"
 
 
