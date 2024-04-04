@@ -10,7 +10,7 @@ const data = {
             title: 'Stackoverflow-lite',
             desc: 'StackOverflow-lite is a platform where people can ask questions and provide answers.',
             gitHub: 'https://github.com/mungaiDaniel/stackoverflow-full',
-            liveDemo: 'https://github.com/mungaiDaniel/stackoverflow-full',
+            liveDemo: 'https://stackoverflow-full.onrender.com',
             client: 'Hobbyist'
         },
         {
@@ -19,7 +19,7 @@ const data = {
             title: 'Salon Gerente',
             desc: 'Salon Gerente is a website platform where user can book salon appointments and buy salon products',
             gitHub: 'https://github.com/mungaiDaniel/Salon-Appointment-UI',
-            liveDemo: 'https://github.com/mungaiDaniel/Salon-Appointment-UI'
+            liveDemo: 'https://mungaidaniel.github.io/Salon-Appointment-UI/'
     
         },
         {
